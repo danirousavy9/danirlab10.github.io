@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html>
+
+        <head>
+                <!--The head contains all of the confirguration items for our page-->
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                <meta content="en-us" http-equiv="Content-Language" />
+                <title>Lab 7</title>
+                <link href="website.css" type="text/css" rel="stylesheet" />
+				<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        </head>
+
+ <body>
+          <img class = "logo" src = "eggsp.png" alt="logo" align="topleftcorner" style="float:left;" hspace="100px" vspace ="20px">
+
+        <div id="wrapper">
+
+            <div id="header">
+            <h1 id = "header1"> Eggspectation </h1>
+            <h2 id = "header2"> Resto-Café-Bar </h2>
+			<span id="about">
+               <p>ABOUT: The Eggspectation concept was created by Eggspectation Group, with a first restaurant in downtown Montreal in 1993. ... Eggspectation is an upscale casual restaurant group providing a more than 120 item contemporary menu covering breakfast, brunch, lunch, dinner, and bar and cafe service</p>
+
+            </span>
+          </div>
+        </div>
+
+ <div id ="potato">
+
+                              <h3 class = "menuheader"> Location and Hours: </h3>
+                              <p> ADDRESS
+
+                                <p>Vancouver Airport Hotel – Accent Inn
+                                10551 St. Edwards Drive </P>
+
+                              <p>  Richmond . BC, V6X 3L8 </p>
+                                <p> Phone: (604) 370-0017 </p>
+                              <p>  Email: Info-rich@eggspectation.net</p>
+
+
+
+
+                              <p>
+
+
+                               Monday
+                                 6:30a.m.–8p.m.
+                               </p>
+                               <p>
+
+                                 Tuesday	6:30a.m.–8p.m.
+                               </p>
+
+                               <p>Wednesday	6:30a.m.–8p.m.</p>
+
+                               <p>Thursday	6:30a.m.–8p.m.</p>
+
+                               <p> Friday	6:30a.m.–8p.m. </p>
+
+                               <p>Saturday	6:30a.m.–8p.m.</p>
+                               <p>
+
+                                 Sunday	6:30a.m.–8p.m.</p>
+                              <p> (Holiday Hours may differ)</p>
+
+
+        </div>
+
+
+            <div id="centerbox">
+              <a href="http://eggspectation.com/wp-content/uploads/2017/10/Leesburg-Menu-2016.pdf">
+                  <h3 class = "menuheader">Menu</h3>
+              </a>
+				<div id="centerimg">
+
+
+
+            <div class="w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides">
+              <img src="unionwring.jpg" style="width:30%" align="middle">
+              <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+
+              </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+              <img src="wowfoewd.jpeg" style="width:20%" align="middle" alt="food">
+              <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+
+              </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+              <img src="pangkick.jpeg" style="width:26%" align="middle" alt="food">
+              <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+
+              </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+              <img src="restorongt.jpeg" style="width:25%" img-align="middle" alt="food">
+              <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+
+              </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+              <img src="bar.jpeg" width="22%" align="middle" alt="food">
+              <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+
+              </div>
+            </div>
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+            </div>
+</div>
+
+
+            </div>
+            <div class="clearfix">
+            </div>
+          <div id="rightbox">
+
+                              <h3 class = "menuheader">Reservations</h3>
+
+
+
+
+
+
+              <form action="/action_page.php" id="usrform">
+                Name: <input type="text" name="usrname">
+                Phone Number <input type="text" name="usrname">
+                <input type="submit">
+              </form>
+              <br>
+              <textarea rows="4" cols="50" name="comment" form="usrform">
+              Special requests</textarea>
+		</div>
+		<span class ="socialmedia">
+            <a href ="https://www.facebook.com/EggspectationOfficial/">
+              <img src = "download.jpg" alt="facebook">
+            </a>
+            <a href= "https://www.instagram.com/eggspectation.vancouver/?hl=en">
+              <img src = "whitegram.jpeg" alt="instagram">
+          </a>
+
+</span>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+      </script>
+
+
+</html>

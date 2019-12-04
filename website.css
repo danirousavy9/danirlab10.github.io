@@ -1,0 +1,141 @@
+/*This is our css*/
+
+@font-face{
+font-family: "main",Thonburi-Bold;
+src: url('Thonburi-Bold.ttf'),
+url('Thonburi-Bold.eot'); /* IE */
+}
+
+#potato{
+	float:left;
+	height:520px;
+    background-color: #006e78;
+
+	/*margin-left:150px;*/
+	/*margin-right:800px;*/
+	margin-left:59px;
+	font-size: 15px;
+	width:37.75%;
+
+
+
+}
+
+#wrapper{
+    width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+	padding-left:10px;
+  }
+  body{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family:"Varela Round";
+  }
+
+#header{
+
+ width: 1400px;
+ height: 400px;
+ margin: 0 auto;
+ background-color: grey;
+
+}
+
+#about{
+  top:50px;
+  float:right;
+  padding-right:50px;
+  font-size:20px;4
+  clear:both;
+  color: #C0C0C0;
+ }
+
+#leftbox{
+  width: 350px;
+  height: 170px;
+  background-color: #C0C0C0;
+  float: left;
+  margin-left: 25px;
+  margin-top:50px;
+  text-align:50px
+}
+
+#centerbox{
+    width: 56%;
+    height:520px;
+    float: left;
+    background-color: #C0C0C0;
+	
+}
+
+#rightbox{
+   width: 60.2%;
+   height: 250px;
+   float: left;
+   margin-left: 59px;
+   background-color: grey;
+}
+
+#header1{
+   text-align: center;
+   padding-top: 50px;
+}
+
+#header2{
+    text-align: center;
+ }
+
+#header3{
+    text-align: center;
+}
+
+.menuheader{
+    text-align: left;
+    font-size: 30px;
+    }
+
+
+#reservations{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#social{
+    margin: 0 auto;
+    text-align:center;
+    }
+
+
+
+#centerimg{
+
+
+  padding-top:0;
+  position: static;
+  
+  hspace:100px;
+  vspace :200px;
+  
+  width: 1800px;
+
+}
+.clearfix {
+  clear:both;
+}
+.socialmedia{
+	float:left;
+	margin-bottom:10px;
+	padding-right:100 px;
+}
+
+.logo{
+	align:top-left-corner;
+	float:left; 
+	hspace:100px; 
+    vspace :20px;
+}
